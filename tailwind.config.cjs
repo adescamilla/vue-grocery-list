@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         background:	'#292d3e',
         foreground:	'#959dcb',
-       comment:	'#676e95',
+        comment:	'#676e95',
         accent:	'#c3e88d',
         redish:	'#ff5370',
         orangish:	'#f78c6c',
