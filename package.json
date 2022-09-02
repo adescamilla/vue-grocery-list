@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^9.1.1",
+    "canvas-confetti": "^1.5.1",
+    "nanoid": "^4.0.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
