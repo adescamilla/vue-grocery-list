@@ -3,7 +3,11 @@
 </script>
 
 <template>
-<h1>Hello There</h1>
+<h1 class="title">📝 Vue Grocery List 📝</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+  .title {
+    @apply m-2 text-6xl font-light tracking-wider;
+  }
+</style>
