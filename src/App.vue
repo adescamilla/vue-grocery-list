@@ -44,23 +44,23 @@
       @apply m-2 text-6xl font-light tracking-wider text-accent;
     }
     form {
-      @apply flex focus-within:ring-4 focus-within:ring-purplish focus-within:rounded-lg;
+      @apply flex focus-within:ring-4 focus-within:ring-maroonish focus-within:rounded-lg;
       input {
         @apply bg-white text-comment p-2 w-80 text-2xl rounded-l-md outline-none;
       }
       button {
         @apply bg-accent text-background p-2 text-2xl font-bold rounded-r-md;
         &:hover {
-          @apply bg-purplish;
+          @apply bg-maroonish;
         }
       }
     }
     ul {
       @apply flex flex-col items-center justify-center rounded-lg bg-comment;
       li {
-        @apply bg-white text-background m-2 p-2 w-96 text-center;
+        @apply bg-white text-comment m-2 p-2 w-96 text-center;
         &:hover {
-          @apply bg-purplish font-bold cursor-pointer;
+          @apply bg-maroonish font-bold cursor-pointer;
         }
       }
     }
